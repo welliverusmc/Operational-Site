@@ -1,1 +1,1 @@
-console.log("Operational homepage loaded");
+console.log("Homepage loaded");
