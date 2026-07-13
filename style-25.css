@@ -1,0 +1,10 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f6fb}
+.app-header{background:#174679;color:#fff;text-align:center;padding:20px}
+.app-header h1{margin:0}
+.app-header p{margin:8px 0 0}
+main{padding:24px}
+h2{text-align:center;color:#174679}
+.tile-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,320px));gap:24px;justify-content:center;margin-top:24px}
+.tile{background:#fff;border-radius:16px;padding:28px;text-decoration:none;color:#174679;box-shadow:0 4px 12px rgba(0,0,0,.15);text-align:center}
+.tile:hover{transform:translateY(-3px)}
